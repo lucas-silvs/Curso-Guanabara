@@ -1,5 +1,5 @@
-altura=int(input("Digite a altura da parede\n"))
-largura = int(input("Digite a largura da parede\n"))
+altura=float(input("Digite a altura da parede\n"))
+largura = float(input("Digite a largura da parede\n"))
 
 area = altura * largura
 
