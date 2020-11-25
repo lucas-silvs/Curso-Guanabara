@@ -1,13 +1,21 @@
 import datetime
-anonascimento = int(input('Digite o ano de nascimento:\n'))
 
-ano= datetime.date.today()
+sexo=input('''Digite o sexo:
+M - Masculino
+F- Feminino\n''')
+if(sexo=='M'):
+    anonascimento = int(input('Digite o ano de nascimento:\n'))
 
-idade = ano.year - anonascimento
+    ano= datetime.date.today()
 
-if(idade<17):
-    print(f"O jovem ainda vai se alistar\nIdade atual: {idade}\n Faltam {17 - idade} anos")
-elif(idade == 17):
-    print(f'Está na hora de se alistar\nIdade: {idade}')
-elif(idade>17):
-    print(f'Já passou da hora de se alistar\nIdade: {idade}\nAtrasou {idade-17} anos')
+    idade = ano.year - anonascimento
+
+    if(idade<18):
+        print(f"O jovem ainda vai se alistar\nIdade atual: {idade}\n Faltam {18 - idade} anos")
+    elif(idade == 18):
+        print(f'Está na hora de se alistar\nIdade: {idade}')
+    elif(idade>18):
+        print(f'Já passou da hora de se alistar\nIdade: {idade}\nAtrasou {idade-18} anos')
+
+else:
+    print('não é obrigatorio o alistamento militar')

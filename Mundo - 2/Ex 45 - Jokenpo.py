@@ -7,7 +7,7 @@ esc=int(input('''Escolha uma mão:\n'
 3 - Tesoura\n'''))
 
 if(esc==1 and c==3):
-    print('Voce ganhou')
+    print('Voce ganhou ')
 elif esc==1 and c ==1:
     print('Empate')
 

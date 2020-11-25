@@ -16,6 +16,7 @@ elif chose==3:
     print(f'O valor final do pagamento em até 2x no cartão: {preco}')
 
 elif chose==4:
-    print(f'O valor final do pagamento em 3x ou mais no cartão: {preco+(preco*0.2)}')
+    parcelas = int(input('Quantas parcelas serão:\n'))
+    print(f'O valor final do pagamento em {parcelas} vezes e cada parcela tera valor de {(preco+(preco*0.2))/parcelas:.2f} com um total de {preco+(preco*0.2)}')
     
     
