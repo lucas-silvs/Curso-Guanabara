@@ -1,9 +1,10 @@
 import random as r
 res=0
 pal=1
+n = r.randint(0,10)
 while res==0:
 
-    n = r.randint(0,10)
+    
 
     usuario = int(input('Digite o número que acredite ser o que o computador escolheu:\n'))
 
