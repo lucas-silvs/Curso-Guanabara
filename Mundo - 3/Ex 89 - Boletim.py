@@ -22,6 +22,9 @@ while c=='s':
             break
 
 aux=0
+print(f'''{"*"*20} Média{"*"*20}''')
+for l in b:
+    print(f'{l[0]} ...... {l[2]}')
 
 while aux==0:
     a = input('Digite o nome do aluno ou digite "sair" para sair:\n')
@@ -31,6 +34,6 @@ while aux==0:
         print('Digite um nome valido')
     for i in b:
         if(a in i[0]):
-            print(f'Nome aluno: {i[0]}\nNota 1: {i[1][0]}\nNota 2: {i[1][1]}\nMédia: {(i[2])/2:.2f}')
+            print(f'Nome aluno: {i[0]}\nNota 1: {i[1][0]}\nNota 2: {i[1][1]}\nMédia: {(i[2]):.2f}')
 
     
