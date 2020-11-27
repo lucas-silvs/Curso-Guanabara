@@ -1,7 +1,8 @@
 jogador = dict()
 time=[]
-n='s'
-while n=='s':
+n=0
+while n==0:
+    ch=''
     jogador = dict()
     jogador['nome']= input('Digite o nome do jogador:\n')
     jogador['qtdepartidas'] = int(input('Digite a quantidade de partidas que o jogador participou:\n'))
@@ -16,30 +17,37 @@ while n=='s':
     jogador['total'] = f
     time.append(jogador)
 
-    ch=''
-    while(ch!='s' or ch!='n'):
+    while ch!='s' and ch!='n':
         ch = input('Deseja cadastrar mais? [S/N]\n').lower()
-        if(ch=='s'):
+        if(ch=='n'):
+            n=1
             break
-        elif(ch=='n'):
-            n='n'
+        elif(ch=='s'):
+            n=0
             break
+               
 
 
 
 
 
 
-for i in time:
+
+for j in time:
     print(f'''
-        Nome do jogador: {i['nome']}
-        Gols por partida: {i['qtdegolspartida']}
-        Total de gols no campeonato: {i['total']}''')
+        Nome do jogador: {j['nome']}
+        Gols por partida: {j['qtdegolspartida']}
+        Total de gols no campeonato: {j['total']}''')
 
 escolha=''
 while escolha!='sair':
     escolha = input('digite o nome do jogador que deseja consultar:\n')
-    if i['nome']==escolha in time:
-        print(f'{i["nome"]} jogou um total de {i["qtdepartidas"]} partidas:\n')
-    for ind,gols in enumerate(i['qtdegolspartida']):
-        print(f' Na partida {ind+1} fez {part} gol(s)')
+    if escolha=='sair':
+        break
+    for k in time:
+        if k['nome']==escolha:
+            print(f'{k["nome"]} jogou um total de {k["qtdepartidas"]} partidas:\n')
+    for ind,gols in enumerate(k['qtdegolspartida']):
+        print(f' Na partida {ind+1} fez {gols} gol(s)')
+    
+
