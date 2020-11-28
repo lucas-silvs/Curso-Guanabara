@@ -18,3 +18,7 @@ while percorer<=len(t):
             vog+=" "+'u'
         print(f'na palavra: {i} tem as seguintes vogais: {vog}')
         percorer+=1
+
+
+
+
