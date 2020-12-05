@@ -1,6 +1,7 @@
 from mod115.interface import *
 from  mod115.arquivos import *
 
+
 arquivo = 'armazenamento.txt'
 cabecalho('Testando')
 

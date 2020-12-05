@@ -28,16 +28,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\Code Python\Curso - Guanabara\Mundo - 3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\Code Python\Curso - Guanabara\Mundo - 3" />
       <recent name="C:\Users\User\Documents\Code Python\Curso - Guanabara\Mundo - 3\mod115" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\Code Python\Curso - Guanabara\Mundo - 3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Ex 115">
-    <configuration name="Ex 114 - verificar site" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.teste">
+    <configuration name="Cliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso - Guanabara" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,11 +45,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo - 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Capitulo_7_Fiap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo - 3/Ex 114 - verificar site.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Capitulo_7_Fiap/Cliente.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex 115" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FTP_ASCII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso - Guanabara" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo - 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Capitulo_7_Fiap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\Documents\Code Python\Curso - Guanabara\Mundo - 3\Ex 115.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Capitulo_7_Fiap/FTP_ASCII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,10 +79,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Protocolo_FTP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Curso - Guanabara" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Capitulo_7_Fiap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Capitulo_7_Fiap/Protocolo_FTP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Servidor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Curso - Guanabara" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Capitulo_7_Fiap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Capitulo_7_Fiap/Servidor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Curso - Guanabara" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Servidor" />
+      <item itemvalue="Python.Cliente" />
+      <item itemvalue="Python.Protocolo_FTP" />
+      <item itemvalue="Python.FTP_ASCII" />
+      <item itemvalue="Python.teste" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ex 115" />
-        <item itemvalue="Python.Ex 114 - verificar site" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.FTP_ASCII" />
+        <item itemvalue="Python.Protocolo_FTP" />
+        <item itemvalue="Python.Cliente" />
+        <item itemvalue="Python.Servidor" />
       </list>
     </recent_temporary>
   </component>
@@ -98,30 +171,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="486" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606934740630">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="486" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606934740630" />
     <state x="1379" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606519569071">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1379" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1606519569071" />
-    <state width="1899" height="286" key="GridCell.Tab.0.bottom" timestamp="1606540053803">
+    <state width="1362" height="286" key="GridCell.Tab.0.bottom" timestamp="1607031661765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606540053803" />
-    <state width="1899" height="286" key="GridCell.Tab.0.center" timestamp="1606540053803">
+    <state width="1362" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607031661765" />
+    <state width="1362" height="286" key="GridCell.Tab.0.center" timestamp="1607031661765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606540053803" />
-    <state width="1899" height="286" key="GridCell.Tab.0.left" timestamp="1606540053803">
+    <state width="1362" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607031661765" />
+    <state width="1362" height="286" key="GridCell.Tab.0.left" timestamp="1607031661765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606540053803" />
-    <state width="1899" height="286" key="GridCell.Tab.0.right" timestamp="1606540053803">
+    <state width="1362" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607031661765" />
+    <state width="1362" height="286" key="GridCell.Tab.0.right" timestamp="1607031661765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606540053803" />
+    <state width="1362" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607031661765" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1606520393051">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606520393051" />
+    <state x="1235" y="222" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607018923130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1235" y="222" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1607018923130" />
+    <state x="1257" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607020938907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1257" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607020938907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
